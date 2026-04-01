@@ -1,19 +1,6 @@
-{"level":"info","pid":57518,"id":13,"time":"2026-04-01T22:25:14+03:00","caller":"/home/undead/projects/film-authorize/main.go:52","message":"new user created"}
-{"level":"error","pid":57518,"time":"2026-04-01T22:25:14+03:00","caller":"/home/undead/projects/film-authorize/main.go:61","message":"userinfo is nil"}
-{"level":"info","pid":58084,"id":14,"time":"2026-04-01T22:33:15+03:00","caller":"/home/undead/projects/film-authorize/main.go:52","message":"new user created"}
-{"level":"error","pid":58084,"time":"2026-04-01T22:33:15+03:00","caller":"/home/undead/projects/film-authorize/main.go:59","message":"user is not valid"}
-{"level":"info","pid":58084,"isValid":false,"userinfo":"user is nil","time":"2026-04-01T22:33:15+03:00","caller":"/home/undead/projects/film-authorize/main.go:69"}
-{"level":"info","pid":58084,"user":"User: ID: 14 Name: undead PasswordHash: some very strong passord hash Role: not admin ","time":"2026-04-01T22:33:15+03:00","caller":"/home/undead/projects/film-authorize/main.go:75"}
-{"level":"info","pid":58084,"time":"2026-04-01T22:33:15+03:00","caller":"/home/undead/projects/film-authorize/main.go:84","message":"end of the program"}
-{"level":"info","pid":58420,"id":15,"time":"2026-04-01T22:36:28+03:00","caller":"/home/undead/projects/film-authorize/main.go:52","message":"new user created"}
-{"level":"info","pid":58420,"is valid":false,"user info":"user is nil","time":"2026-04-01T22:36:28+03:00","caller":"/home/undead/projects/film-authorize/main.go:59","message":"check correct user"}
-{"level":"info","pid":58420,"isValid":false,"userinfo":"user is nil","time":"2026-04-01T22:36:28+03:00","caller":"/home/undead/projects/film-authorize/main.go:65","message":"check wrong user"}
-{"level":"info","pid":58420,"user":"User: ID: 15 Name: undead PasswordHash: some very strong passord hash Role: not admin ","time":"2026-04-01T22:36:28+03:00","caller":"/home/undead/projects/film-authorize/main.go:71","message":"get user by id"}
-{"level":"info","pid":58420,"user":"User: ID: 15 ","time":"2026-04-01T22:36:28+03:00","caller":"/home/undead/projects/film-authorize/main.go:77","message":"delete user by id"}
-{"level":"info","pid":58420,"time":"2026-04-01T22:36:28+03:00","caller":"/home/undead/projects/film-authorize/main.go:80","message":"end of the program"}
-{"level":"info","pid":58567,"id":16,"time":"2026-04-01T22:36:58+03:00","caller":"/home/undead/projects/film-authorize/main.go:52","message":"new user created"}
-{"level":"info","pid":58567,"is valid":false,"user info":"user is nil","time":"2026-04-01T22:36:58+03:00","caller":"/home/undead/projects/film-authorize/main.go:59","message":"check correct user"}
-{"level":"info","pid":58567,"is valid":false,"user info":"user is nil","time":"2026-04-01T22:36:58+03:00","caller":"/home/undead/projects/film-authorize/main.go:65","message":"check wrong user"}
-{"level":"info","pid":58567,"user":"User: ID: 16 Name: undead PasswordHash: some very strong passord hash Role: not admin ","time":"2026-04-01T22:36:58+03:00","caller":"/home/undead/projects/film-authorize/main.go:71","message":"get user by id"}
-{"level":"info","pid":58567,"user":"User: ID: 16 ","time":"2026-04-01T22:36:58+03:00","caller":"/home/undead/projects/film-authorize/main.go:77","message":"delete user by id"}
-{"level":"info","pid":58567,"time":"2026-04-01T22:36:58+03:00","caller":"/home/undead/projects/film-authorize/main.go:80","message":"end of the program"}
+{"level":"info","pid":89594,"id":29,"time":"2026-04-01T23:43:11+03:00","caller":"/home/undead/projects/film-authorize/main.go:52","message":"new user created"}
+{"level":"info","pid":89594,"is valid":true,"user info":"User: ID: 29 Name: undead PasswordHash: some very strong passord hash Role: not admin ","time":"2026-04-01T23:43:11+03:00","caller":"/home/undead/projects/film-authorize/main.go:59","message":"check correct user"}
+{"level":"info","pid":89594,"is valid":false,"user info":"user is nil","time":"2026-04-01T23:43:11+03:00","caller":"/home/undead/projects/film-authorize/main.go:65","message":"check wrong user"}
+{"level":"info","pid":89594,"user":"User: ID: 29 Name: undead PasswordHash: some very strong passord hash Role: not admin ","time":"2026-04-01T23:43:11+03:00","caller":"/home/undead/projects/film-authorize/main.go:71","message":"get user by id"}
+{"level":"info","pid":89594,"user":"User: ID: 29 ","time":"2026-04-01T23:43:11+03:00","caller":"/home/undead/projects/film-authorize/main.go:77","message":"delete user by id"}
+{"level":"info","pid":89594,"time":"2026-04-01T23:43:11+03:00","caller":"/home/undead/projects/film-authorize/main.go:80","message":"end of the program"}

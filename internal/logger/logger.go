@@ -21,7 +21,7 @@ type LoggerConfig struct {
 func initLogger() error {
 	var writer io.Writer
 
-	if file, err := os.OpenFile("./log"+config.LogFilePath, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0777); err != nil {
+	if file, err := os.OpenFile("./log/"+config.LogFilePath, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0777); err != nil {
 		return err
 	} else {
 		writer = io.MultiWriter(file, zerolog.ConsoleWriter{Out: os.Stdout})
